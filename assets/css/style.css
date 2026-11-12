@@ -236,17 +236,21 @@ address { font-style: normal; }
 }
 .header-inner {
   max-width: calc(1341px + var(--gutter) * 2);
-  height: 162px;
+  height: 100px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.logo img { width: 184px; height: 122px; object-fit: contain; }
+.logo img { width: 120px; height: 80px; object-fit: contain; }
 .btn-header {
-  width: 326px;
-  height: 84px;
+  width: 240px;
+  height: 60px;
+  padding: 0 20px;
+  gap: 10px;
+  font-size: 22px;
   box-shadow: none;
 }
+.btn-header .btn-icon { width: 24px; height: auto; }
 
 /* ---------- Hero ---------- */
 .hero {
@@ -736,10 +740,11 @@ address { font-style: normal; }
 }
 
 @media (max-width: 1024px) {
-  .header-inner { height: 110px; }
-  .logo img { width: 130px; height: 86px; }
+  .header-inner { height: 90px; }
+  .logo img { width: 105px; height: 70px; }
   .btn { height: 76px; width: 340px; font-size: 24px; }
-  .btn-header { width: 260px; height: 64px; }
+  .btn-header { width: 200px; height: 50px; font-size: 18px; }
+  .btn-header .btn-icon { width: 20px; }
   .hero-title { font-size: 44px; line-height: 58px; }
   .hero-sub { font-size: 26px; line-height: 38px; }
   .section-title { font-size: 36px; }
