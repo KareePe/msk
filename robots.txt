@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /design/
 
-Sitemap: https://www.uretek.co.th/sitemap.xml
+Sitemap: https://www.uretek.co.th/sale/sitemap.xml
